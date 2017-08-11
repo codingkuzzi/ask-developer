@@ -1,7 +1,10 @@
-# ask-developer
+## Ask Developer application by Anna Kuznetsova, August 2017
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An Ember Questions And Answers application
+
+### Description
+
+Ask Developer application allows junior developers and newbies learning to code to ask questions that senior developers, product owners, senior designers, recruiters, and other tech professionals can answer.
 
 ## Prerequisites
 
@@ -14,7 +17,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/codingkuzzi/ask-developer.git
 * `cd ask-developer`
 * `npm install`
 
@@ -27,24 +30,15 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
-### Running Tests
+## Technologies Used
 
-* `ember test`
-* `ember test --server`
+* JavaScript
+* jQuery
+* Bootstrap
+* Ember CLI
+* Bower
+* Node.js
 
-### Building
+### License
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Copyright (c) 2017 **_MIT License_**

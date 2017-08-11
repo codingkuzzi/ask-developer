@@ -1,6 +1,7 @@
-<h4>Here will be questions</h4>
+<h4></h4>
 <ul>
   {{#each model as |question|}}
-     <li>{{question.author}}</li>
+     <li><h4>{{question.title}}</h4></li>
+     <p>{{question.question}}</p>
   {{/each}}
 </ul>

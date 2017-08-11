@@ -17,7 +17,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/codingkuzzi/ask-developer.git
+* `git clone https://github.com/codingkuzzi/ask-developer.git`
 * `cd ask-developer`
 * `npm install`
 

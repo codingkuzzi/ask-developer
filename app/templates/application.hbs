@@ -1,5 +1,39 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div id="container" class="container">
+{{#link-to 'questions'}}Questions{{/link-to}}
+<!-- <a href='https://www.indeed.com/q-Software-Developer-jobs.html'>Developer Jobs</a> -->
+{{#link-to 'contact'}}Contact{{/link-to}}
 
-{{outlet}}
+</div>
+<div id="container" class="container">
+
+    <div class="row">
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            {{#link-to 'index' class="navbar-brand"}}Ask Developer{{/link-to}}
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+              <li class="active">{{#link-to 'questions'}}Questions{{/link-to}}</li>
+              <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+
+            </ul>
+
+
+
+          </div>
+        </div>
+        <div class="logo"></div>
+
+      </nav>
+      {{outlet}}
+
+
+
+    </div>
+  </div>
+  <div id="footer" class="container">
+    <p>{{fa-icon "heart"}}  from Steve Zaske & Anna Kuznetsova, 2017</p>
+  </div>

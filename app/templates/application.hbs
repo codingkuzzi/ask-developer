@@ -1,39 +1,41 @@
 <div id="container" class="container">
-{{#link-to 'questions'}}Questions{{/link-to}}
+
 <!-- <a href='https://www.indeed.com/q-Software-Developer-jobs.html'>Developer Jobs</a> -->
-{{#link-to 'contact'}}Contact{{/link-to}}
+
+
+<div class="row">
+
+     <nav class="navbar navbar-default">
+       <div class="container-fluid">
+        <div class="navbar-header">
+          {{#link-to 'index' class="navbar-brand"}}Ask developer{{/link-to}}
+        </div>
+
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+           <ul class="nav navbar-nav">
+             <li class="active">{{#link-to 'questions'}}Questions{{/link-to}}</li>
+            <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+            <li><a target="_blank" href='https://www.indeed.com/q-Software-Developer-jobs.html'>Developer Jobs</a></li>
+            <li><a target="_blank" href='https://www.linkedin.com/'>Linkedin</a></li>
+
+
+           </ul>
+
+
+
+         </div>
+       </div>
+     </nav>
+     <div class="container">
+     {{outlet}}
+     </div>
+
+
+
+   </div>
+ </div>
+  <div id="footer" class="container">
+       <p>{{fa-icon "hand-peace-o"}} from Anna Kuznetsova, 2017</p>
+
 
 </div>
-<div id="container" class="container">
-
-    <div class="row">
-
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            {{#link-to 'index' class="navbar-brand"}}Ask Developer{{/link-to}}
-          </div>
-
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-            <ul class="nav navbar-nav">
-              <li class="active">{{#link-to 'questions'}}Questions{{/link-to}}</li>
-              <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-
-            </ul>
-
-
-
-          </div>
-        </div>
-        <div class="logo"></div>
-
-      </nav>
-      {{outlet}}
-
-
-
-    </div>
-  </div>
-  <div id="footer" class="container">
-    <p>{{fa-icon "heart"}}  from Steve Zaske & Anna Kuznetsova, 2017</p>
-  </div>

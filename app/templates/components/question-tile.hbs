@@ -1,0 +1,16 @@
+<!-- A question post -->
+<section class="question">
+    <header class="question-header">
+        <img width="48" height="48" class="post-avatar" src="{{question.image}}">
+
+        <h2 class="question-title">{{#link-to 'question' question.id}}{{question.title}}{{/link-to}}</h2>
+
+        <p class="question-meta">
+            By {{question.author}} (posted on {{question.timestamp}})
+        </p>
+    </header>
+
+    <div class="question-text">
+        <p>{{question.question}}...{{#link-to 'question' question.id}}link{{/link-to}}</p>
+    </div>
+</section>

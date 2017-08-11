@@ -1,0 +1,23 @@
+{ "questions": [{
+    "author": "Veruca Salt",
+    "title": "Database SQL question",
+    "question": "I'm trying the new mule flow designer and when I try to test my database connection, it throws an error 'Could not obtain connection from data source'. My mysql is running and am able to connect to it from other tools.I could not find any more information on the error. I'm using the mySQL JDBC driver 5.1.43 from ",
+    "notes": "I'm using the mySQL JDBC driver 5.1.43 from",
+    "image": "https://gvkamath.files.wordpress.com/2012/02/snapshotisolation.jpg",
+    "timestamp": "June 23, 2017"
+  }, {
+    "author": "Mick White",
+    "title": "Question about javascript images",
+    "question": "I want to create an interactive image that allows users to make certain any combination of the options presented. As it stands, the javascript I have will hide every single other layer instead of just the ones in the section. All four sections should be visible but you can change each individual item.",
+    "notes": "",
+    "image": "https://i.ytimg.com/vi/vxIg8a3E0k8/maxresdefault.jpg",
+    "timestamp": "June 29, 2017"
+  }, {
+    "author": "Alex Brown",
+    "title": "Google Calendar API - 403 error",
+    "question": "I am attempting to set up an application using the Google Calendar API. I set up all the credentials and set the authorized JavaScript page equal to http://localhost:8000 as suggested within the quick start guide at https://developers.google.com/google-apps/calendar/quickstart/js. When I try to run the file on localhost:8000/quickstart.html it will show the basis page but no information. I can click the authenticate button and it will allow me to authenticate my account to use the Calendar application, however nothing will show up information-wise. Checking the console, the following errors are present:",
+    "notes": "Get https://content.googleapis.com/calendar/v3/calendars/primary/events?maxResults=10&orderBy=startTime&showDeleted=false&singleEvents=true&timeMin=2017-08-11T20%3A58%3A29.156Z 403 ()",
+    "image": "https://i.ytimg.com/vi/ywolbDP03lk/maxresdefault.jpg",
+    "timestamp": "August 7, 2017"
+  }]
+}

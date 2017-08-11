@@ -1,0 +1,15 @@
+#ask{
+text-align: center;
+}
+
+#questions{
+margin: 25px;
+}
+
+#contact{
+  margin: 40px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}

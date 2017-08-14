@@ -10,14 +10,15 @@ export default Ember.Component.extend({
         author: this.get('author'),
         title: this.get('inputTitle'),
         question: this.get('inputQuestion'),
-        image: this.controller.get('inputImageUrl'),
+        notes: this.get('inputNotes'),
+        image: this.get('inputImageUrl'),
         timestamp: dateString
       };
     //  console.log(this);
       this.sendAction('createQuestion', params);
       var newQuestion = this.store.createRecord('question', params);
-            newQuestion.save();
-            this.transitionTo('index', {reload: true});
-    } //end of createQuestion action
+      newQuestion.save();
+      this.transitionTo('index', {reload: true});
+    }, //end of createQuestion action
   } //end of actions
 });

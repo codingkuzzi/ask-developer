@@ -9,5 +9,6 @@ export default Ember.Route.extend({
         newQuestion.save();
         this.transitionTo('index');
     } //end of createQuestion action
+
   } //end of actions
 });

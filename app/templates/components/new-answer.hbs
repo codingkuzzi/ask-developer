@@ -1,0 +1,26 @@
+<div class="col-lg-8">
+  <div class="well bs-component">
+    <form class="form-horizontal" {{action 'createAnswer' on="submit"}}>
+      <fieldset>
+        <legend>Your answer</legend>
+        <div class="form-group">
+          <label for="author" class="col-lg-2 control-label">Author</label>
+          <div class="col-lg-5">
+            {{input type="text" class="form-control" valueBinding=author}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputComment" class="col-lg-2 control-label">Comment</label>
+          <div class="col-lg-10">
+            {{textarea rows="3" class="form-control" id="inputComment" value=inputAnswer placeholder="your answer"}}
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <button class="btn btn-primary">Post your answer</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

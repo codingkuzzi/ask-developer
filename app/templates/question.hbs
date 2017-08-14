@@ -18,7 +18,13 @@
     <div id="edit">
        <button type="button" class="btn btn-default">{{#link-to 'edit-question' model}}Edit question{{/link-to}}</button>
     </div>
-
-
-
+<div>
+<br>
+<h4>Answers:</h4>
+    {{#each model.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+    <br>
+{{new-answer createAnswer='createAnswer' question=model}}
+</div>
 </section>

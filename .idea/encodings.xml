@@ -3,8 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/templates/application.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/ask-question.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/answer-tile.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/components/ask-question.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/components/edit-question.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/new-answer.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/components/question-tile.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/edit-question.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/question.hbs" charset="UTF-8" />

@@ -14,9 +14,9 @@ export default Ember.Route.extend({
         image: this.controller.get('inputImageUrl')
 
       };
-      //  console.log(this);
-      //this.sendAction('editQuestion', question, params);
-      //var newQuestion = this.store.createRecord('question', params);
+
+      this.sendAction('editQuestion', question, params);
+
       question.save();
       this.transitionTo('question', params.question_id, {reload: true});
     }, //end of createQuestion action

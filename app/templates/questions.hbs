@@ -1,7 +1,7 @@
 <h4></h4>
 <ul>
   {{#each model.questions as |question|}}
-     <li><h4>{{question.title}}</h4></li>
-     <p>{{question.question}}</p>
+      <li><h4>{{#link-to 'question' question.id}}{{question.title}}{{/link-to}}</h4></li>
+      <p>{{question.question}}</p>
   {{/each}}
 </ul>
